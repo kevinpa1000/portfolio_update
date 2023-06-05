@@ -92,7 +92,7 @@
 /* display background color black on navbar scroll */
 
 .navbarScroll.navbarDark {
-    background-color: #1E90FF;
+    background-color: rgba(0, 0, 0.5);
 }
 
 
