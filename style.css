@@ -1,5 +1,12 @@
 /* hero background image */
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
 .bgimage {
     position: relative;
     background: url('images/lepi.jpg');
@@ -26,77 +33,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #F67906;
 }
-
-.portfolio_section {
-    background-color: #808080;
-    height: 0%;
-    width: 100%;
-    position: relative;
-    top: -154px;
-    padding: 5px;
-}
-
-#portfolio .container {
-    position: relative;
-    top: -35px;
-}
-
-.contact_section {
-    background-color: lightsteelblue;
-    position: relative;
-    height: 140vh;
-    width: 100%;
-    top: -154px;
-    padding: 5px;
-}
-
-#contact .container {
-    position: relative;
-    /* bottom: -25px; */
-}
-
-
-/* services section css */
-
-
-/* #services .container {
-    position: relative;
-} */
-
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-}
-
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-
-.card-title {
-    text-align: center;
-}
-
-.card:hover .servicesIcon {
-    color: #008000;
-}
-
-.servicesText:hover {
-    border: 1px solid #008000;
-}
-
-
-/* display background color black on navbar scroll */
 
 .navbarScroll.navbarDark {
     background-color: rgba(0, 0, 0.5);
 }
-
-
-/* social media icons styling */
 
 .social-icons {
     font-size: 36px;
@@ -115,96 +57,12 @@
     color: #05102e;
 }
 
-
-/* footer styling */
-
-
-/* #contact #footer .container-fluid {
-    position: relative;
-    margin: auto;
-    top: -17px;
-} */
-
-
-/* spacing on all sections */
-
-
-/* about section image css */
-
 .imageAboutPage {
     position: relative;
     width: 350px;
     height: 600px;
     margin-left: 7px;
     top: -70px;
-}
-
-#about {
-    /* position: relative; */
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-    background-image: url(images/ron.jpg);
-}
-
-#about #text_center {
-    position: absolute;
-    background-color: #008000;
-    text-align: center;
-}
-
-#about .set1 {
-    position: relative;
-    /* background-color: #008000; */
-    /* padding: 20px; */
-    /* top: -5px; */
-}
-
-#about .container {
-    position: relative;
-    /* padding: 50px; */
-    /* top: 45px; */
-}
-
-#services {
-    /* margin-top: 9rem; */
-    position: relative;
-    width: 100%;
-    height: 125vh;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-    background-color: mistyrose;
-}
-
-#portfolio {
-    margin-top: 9rem;
-    padding-top: 2rem;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-    background-color: darkorange;
-}
-
-#contact {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
-
-#contact form {
-    position: relative;
-    width: 80%;
-    height: 50vh;
-    /* background-color: #1E90FF; */
 }
 
 .list1 .img_list1 img {
@@ -278,11 +136,6 @@
     margin-bottom: 3px;
 }
 
-
-/* .first_text {
-    position: relative;
-} */
-
 .set1 ul {
     position: relative;
     top: -40px;
@@ -331,43 +184,56 @@
 
 /* parallax_css */
 
+
+/* MAP GPS */
+
+
+/* iframe {
+    position: relative;
+    background-color: #1E90FF;
+    width: 70%;
+    height: 50vh;
+} */
+
 #home {
     height: 100vh;
     width: 100%;
+    background-image: url(images/lepi.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
 }
 
-
-/* #about {
+#about {
     height: 100vh;
     width: 100%;
+    background-image: url(images/ron.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
-} */
-
-
-/* new */
-
-
-/* section id="new1" name, age, status */
-
-#new1 ul {
-    position: relative;
-    margin-top: 45px;
 }
 
-iframe {
-    position: relative;
-    /* background-color: #1E90FF; */
-    width: 70%;
-    height: 50vh;
+#portfolio {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/port2.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
-#footer {
-    /* background-color: #008000; */
-    position: relative;
-    margin-bottom: -200%;
+#contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/sc1.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: arial black;
+    font-size: 50px;
+    color: #F67906;
+    margin-left: 25px;
 }

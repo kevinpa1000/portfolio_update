@@ -1,34 +1,44 @@
 .navbarScroll.navbarDark {
-    background-color: #1E90FF;
+    background-color: rgba(0, 0, 0.5);
 }
 
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
-#box1 {
+#home {
     height: 100vh;
     width: 100%;
-    background-image: url(images/lukas.jpg);
+    background-image: url(images/lepi.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
 }
 
-#box2 {
+#about {
     height: 100vh;
     width: 100%;
-    background-image: url(images/christina.jpg);
+    background-image: url(images/ron.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
 }
 
-#box3 {
+#portfolio {
     height: 100vh;
     width: 100%;
-    background-image: url(images/mister.jpg);
+    background-image: url(images/port2.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/sc1.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -37,9 +47,154 @@ body {
 h1 {
     font-family: arial black;
     font-size: 50px;
-    color: white;
+    color: #F67906;
     margin: 0px;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+}
+
+.list1 .img_list1 img {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.list1 .img_list1 .spasi1 {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: -12px;
+}
+
+
+/* setting list 2 */
+
+.list2 .img_list2 img {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.list2 .img_list2 {
+    position: relative;
+    margin-top: 25px;
+}
+
+
+/* setting list 3 */
+
+.list3 .img_list3 img {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.list3 .img_list3 {
+    position: relative;
+    margin-top: 25px;
+}
+
+.list4 .img_list4 img {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.list4 .img_list4 {
+    position: relative;
+    margin-top: 13px;
+}
+
+.list4 .img_list4 .spasi2 {
+    position: relative;
+    margin-top: 20px;
+}
+
+.list4 .img_list4 .spasi3 {
+    position: relative;
+    margin-left: 130px;
+    margin-top: -30px;
+}
+
+.paragraf_2 {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.set1 ul {
+    position: relative;
+    top: -40px;
+}
+
+.set2 .part2 {
+    position: relative;
+    top: -45px;
+}
+
+.set2 .list1 {
+    position: relative;
+    top: -40px;
+}
+
+.set2 .list2 {
+    position: relative;
+    top: -41px;
+}
+
+.set2 .paragraf_2 {
+    position: relative;
+    top: -38px;
+}
+
+.set2 .list3 {
+    position: relative;
+    top: -46px;
+}
+
+.set2 .list4 {
+    position: relative;
+    top: -42px;
+}
+
+.set2 .spasi2 {
+    position: relative;
+    top: 10px;
+}
+
+.set2 .paragraf_3 {
+    position: relative;
+    top: -25px;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #008000;
+}
+
+.fab {
+    color: #05102e;
+}
+
+.imageAboutPage {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    margin-left: 7px;
+    top: -70px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F67906;
 }
